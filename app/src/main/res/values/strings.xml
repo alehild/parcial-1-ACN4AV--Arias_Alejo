@@ -3,5 +3,7 @@
     <string name="guardar_receta">guardar</string>
     <string name="publicar_receta">publicar</string>
     <string name="nombre_de_la_nueva_receta">Nombre de la nueva receta</string>
-    <string name="nombre_de_la_receta">nombre de la receta:</string>
+    <string name="nombre_de_la_receta">Nombre de la receta:</string>
+    <string name="seleccione_la_imagen">Seleccione la imagen</string>
+    <string name="tiempo_requerido">Tiempo requerido</string>
 </resources>
