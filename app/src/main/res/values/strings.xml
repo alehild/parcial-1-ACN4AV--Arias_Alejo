@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LibreriaCocina</string>
+    <string name="guardar_receta">guardar</string>
+    <string name="publicar_receta">publicar</string>
 </resources>
