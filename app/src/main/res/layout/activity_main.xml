@@ -13,8 +13,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginEnd="20dp"
         android:text="@string/guardar_receta"
+        android:onClick="guardarReceta"
         app:layout_constraintEnd_toStartOf="@+id/bot_publicar"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,12 +91,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonSelectImage" />
 
+
     <EditText
         android:id="@+id/editTextRecipeTime"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_margin="14dp"
+        android:layout_marginTop="28dp"
         android:background="#FFFFFF"
         android:hint="@string/ingrese_cuanto_tiempo_lleva_la_receta"
         android:inputType="number"
@@ -104,5 +106,18 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewRecipeTime" />
+
+    <TextView
+        android:id="@+id/textViewIngredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="#ffc107"
+        android:text="@string/ingredientes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextRecipeTime" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
