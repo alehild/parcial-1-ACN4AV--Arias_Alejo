@@ -6,4 +6,5 @@
     <string name="nombre_de_la_receta">Nombre de la receta:</string>
     <string name="seleccione_la_imagen">Seleccione la imagen</string>
     <string name="tiempo_requerido">Tiempo requerido</string>
+    <string name="ingrese_cuanto_tiempo_lleva_la_receta">Ingrese cuanto tiempo lleva la receta</string>
 </resources>
