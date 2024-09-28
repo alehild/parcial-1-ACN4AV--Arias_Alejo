@@ -8,4 +8,8 @@
     <string name="tiempo_requerido">Tiempo requerido</string>
     <string name="ingrese_cuanto_tiempo_lleva_la_receta">Ingrese cuanto tiempo lleva la receta</string>
     <string name="ingredientes">Ingredientes</string>
+    <string name="agregar_ingrediente">Agregar ingrediente</string>
+    <string name="agregar_ngredient">Agregar ingrediente</string>
+
+
 </resources>
