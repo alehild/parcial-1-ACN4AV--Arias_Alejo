@@ -2,4 +2,6 @@
     <string name="app_name">LibreriaCocina</string>
     <string name="guardar_receta">guardar</string>
     <string name="publicar_receta">publicar</string>
+    <string name="nombre_de_la_nueva_receta">Nombre de la nueva receta</string>
+    <string name="nombre_de_la_receta">nombre de la receta:</string>
 </resources>
