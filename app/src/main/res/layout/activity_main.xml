@@ -16,21 +16,23 @@
         android:layout_marginEnd="20dp"
         android:text="@string/guardar_receta"
 
-        app:layout_constraintEnd_toStartOf="@+id/bot_publicar"
+        app:layout_constraintEnd_toStartOf="@+id/bot_cancelar"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/bot_publicar"
+        android:id="@+id/bot_cancelar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:text="@string/cancelar"
+
         app:layout_constraintBottom_toBottomOf="@+id/bot_guardar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/bot_guardar"
         app:layout_constraintVertical_bias="0.0" />
+
 
     <TextView
         android:id="@+id/textView"
@@ -147,13 +149,13 @@
         android:layout_width="350dp"
         android:layout_height="80dp"
         android:layout_margin="16dp"
+        android:layout_marginTop="20dp"
+
+
         android:background="#FFFFFF"
-
-
-        android:layout_marginTop="16dp"
         android:contentDescription="@string/agregar_ingrediente"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintHorizontal_bias="0.426"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/buttonAddIngredient">
 
@@ -173,22 +175,24 @@
         android:layout_marginTop="20dp"
         android:text="@string/guardar_receta"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
-        app:layout_constraintStart_toEndOf="@+id/switch1"
+        app:layout_constraintEnd_toEndOf="@+id/scrollViewIngredients"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="@+id/scrollViewIngredients"
         app:layout_constraintTop_toBottomOf="@+id/scrollViewIngredients"
-        app:layout_constraintVertical_bias="0.307" />
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="@android:color/holo_green_light" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
         android:minHeight="48dp"
         android:text="@string/guardar_la_receta_actual"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/scrollViewIngredients"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/scrollViewIngredients"
         app:layout_constraintTop_toBottomOf="@+id/scrollViewIngredients"
         app:layout_constraintVertical_bias="0.0" />
 
