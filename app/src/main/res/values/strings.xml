@@ -10,6 +10,8 @@
     <string name="ingredientes">Ingredientes</string>
     <string name="agregar_ingrediente">Agregar ingrediente</string>
     <string name="agregar_ngredient">Agregar ingrediente</string>
+    <string name="cancelar">cancelar</string>
+    <string name="guardar_la_receta_actual">quiere guardar esta receta?</string>
 
 
 </resources>

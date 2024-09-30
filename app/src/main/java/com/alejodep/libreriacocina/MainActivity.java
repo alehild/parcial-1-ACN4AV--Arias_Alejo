@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         buttonAddIngredient = findViewById(R.id.buttonAddIngredient);
 
 
-        // Gestión de las barras del sistema
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -42,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        // Evento para el botón "Agregar Ingrediente
+        // Evento para el botón Agregar Ingrediente
         buttonAddIngredient.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

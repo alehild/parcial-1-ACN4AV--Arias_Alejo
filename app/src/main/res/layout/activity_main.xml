@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/libro"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <Button
@@ -15,7 +15,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
         android:text="@string/guardar_receta"
-        android:onClick="guardarReceta"
+
         app:layout_constraintEnd_toStartOf="@+id/bot_publicar"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:text="@string/publicar_receta"
+        android:text="@string/cancelar"
         app:layout_constraintBottom_toBottomOf="@+id/bot_guardar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/bot_guardar"
@@ -147,6 +147,7 @@
         android:layout_width="350dp"
         android:layout_height="80dp"
         android:layout_margin="16dp"
+        android:background="#FFFFFF"
 
 
         android:layout_marginTop="16dp"
@@ -164,6 +165,32 @@
             android:orientation="vertical" />
 
     </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/guardar_receta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toEndOf="@+id/switch1"
+        app:layout_constraintTop_toBottomOf="@+id/scrollViewIngredients"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:minHeight="48dp"
+        android:text="@string/guardar_la_receta_actual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollViewIngredients"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
